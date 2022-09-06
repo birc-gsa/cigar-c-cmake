@@ -8,7 +8,7 @@ void edits_to_cigar(const char *edits, char **cigar)
 {
     size_t n = strlen(edits);
     *cigar = malloc(2 * n + 1); // maximal length for a cigar
-    // Compute teh CIGAR string
+    // Compute the CIGAR string
 }
 
 static inline int count_edits(const char *cigar)
